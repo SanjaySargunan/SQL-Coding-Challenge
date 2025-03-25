@@ -187,4 +187,3 @@ Order By TotalSpent Desc;
 Select V.*, L.*
 From Vehicle V
 Left Join Lease L On V.Vehicleid = L.Vehicleid
-Where L.Enddate >= Getdate();
